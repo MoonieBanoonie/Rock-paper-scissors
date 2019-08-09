@@ -1,11 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-<h1><center>Rock, Paper, Scissors!</center></h1>
-</head>
-<body>
-<script>
-
 const tieMessage = ("It's a tie my dude...")
 const inputMessage = ("Choose rock, paper or scissors bruh")
 let playerScore = 0
@@ -120,8 +112,3 @@ let declarationResult = results()
 console.log (declarationResult)
 
 let playagain = alert ("Rematch? Press CTRL-R")
-
-
-</script>
-</body>
-</html>
