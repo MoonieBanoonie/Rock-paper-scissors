@@ -87,11 +87,8 @@ console.log (gameRound(computerSelection,playerChoice))
 
 }
 
-fullgame()
-fullgame()
-fullgame()
-fullgame()
-fullgame()
+for (i=0;i<5;i++){
+fullgame()}
 
 //function where the player is declared winner or loser
 
