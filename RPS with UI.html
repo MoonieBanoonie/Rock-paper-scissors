@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Saira+Extra+Condensed&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    
+    <h1><center>Rock Paper Scissors!</center></h1>
+
+    <div class = "result">
+    <p>You dare to challenge the Overlord? Pick your weapon!</p>
+    </div>
+
+    <div id = "buttoncontainer">
+            <button id ="rock" onmousedown="soundonClick.play()"></button>
+            <button id ="paper" onmousedown="soundonClick.play()" ></button>
+            <button id ="scissors" onmousedown="soundonClick.play()"></button>
+    </div>
+    
+
+    <div id = "playercontainer">
+        <div class = "computer">
+            <p>Overlord</p>      
+        </div>
+
+        <div class = player>
+            <p>You</p>
+        </div>
+    </div>
+
+    <div id = "scoreBoard">  
+        <span id = computerScore>0</span><span id = playerScore>0</span>
+    </div>
+       
+   
+
+    <script src="RPScode.js"></script>
+</body>
+</html>

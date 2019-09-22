@@ -1,0 +1,105 @@
+html{
+    background-color: rgb(165, 223, 67);
+    background: url(http://friendshipblogss.weebly.com/uploads/3/1/3/2/31329113/3227388_orig.png);
+    background-size: cover;
+}
+
+h1{
+    font-family:'Amatic SC', cursive;
+    font-size: 60px;
+    letter-spacing: 2px;
+    border-radius: 20px;
+    display: flex;
+    flex: 1;
+    min-height: 10vh;
+    align-items: center;
+    justify-content: center;
+    
+}
+.result > p{
+    font-family:'Amatic SC', cursive;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+
+}
+#scoreBoard{
+   
+    width: 600px;
+    display: flex;
+    flex: 1;    
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    height: 80px;
+    
+}
+
+span{
+    font-family:'Amatic SC', cursive;
+    font-size: 40px;
+    font-weight: bold;
+    border: solid;
+    padding: 20px;
+    margin: auto;  
+}
+
+#playercontainer{
+    display: flex;
+    flex: 1;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.computer{
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
+    font-weight: bold;
+    margin-right: 300px;
+    
+}
+
+.player{
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 300px;
+ 
+}
+
+#buttoncontainer{
+    display: flex;
+    flex: 1;
+    min-height: 10vh;
+    margin:auto;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    cursor: crosshair;
+    color: grey;    
+    border-radius: 60px;
+    padding: 10px;
+    margin: 20px;
+    width: 110px;
+    height: 110px;
+  
+}
+    
+#rock{
+    background:url(https://res.cloudinary.com/teepublic/image/private/s--axTF8cIe--/t_Preview/b_rgb:c8e0ec,c_limit,f_jpg,h_630,q_90,w_630/v1491484006/production/designs/1397602_1.jpg);
+    background-size: cover;
+}
+
+#paper{
+    background: url(https://previews.123rf.com/images/jemastock/jemastock1711/jemastock171116997/90526376-paper-plane-origami-cute-cartoon-vector-illustration.jpg);
+    background-size: cover;
+}
+
+#scissors{
+    background: url(https://previews.123rf.com/images/djvstock/djvstock1706/djvstock170609096/80423964-kawaii-scissors-icon-over-white-background-colorful-design-vector-illustration.jpg);
+    background-size: cover;
+}
