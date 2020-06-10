@@ -11,6 +11,21 @@ const result_p = document.querySelector(".result > p");
 let soundonClick = new Audio();
 soundonClick.src = "plopsound.mp3"
 
+function mainGame(){
+    rock_button.addEventListener("click", function() {
+        fullgame("rock");
+    });
+
+    paper_button.addEventListener("click", function() {
+        fullgame("paper")
+    });
+
+    scissors_button.addEventListener("click", function() {
+        fullgame ("scissors")
+    });
+
+}
+
 function fullgame (playerChoice){
 
     function computerPlay() {
@@ -48,24 +63,7 @@ function fullgame (playerChoice){
             ++computerScore
             result_p.innerHTML = computerSelection + " beats " + playerChoice + ", 1 point for the Overlord!"        
         }
-        return (computerSelection, playerChoice)
-    
-        
+        return (computerSelection, playerChoice)        
 }
 
-
-function mainGame(){
-    rock_button.addEventListener("click", function() {
-        fullgame("rock");
-    });
-
-    paper_button.addEventListener("click", function() {
-        fullgame("paper")
-    });
-
-    scissors_button.addEventListener("click", function() {
-        fullgame ("scissors")
-    });
-
-}
 mainGame()
