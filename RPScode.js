@@ -31,22 +31,22 @@ function fullgame (playerChoice){
             result_p.innerHTML = "It's a draw!"
         }else if (computerSelection === "rock" && playerChoice === "paper") {
             result_p.innerHTML = playerChoice + " beats " + computerSelection + ", 1 point for you!"
-            playerScore++  
+            ++playerScore
         }else if (computerSelection === "rock" && playerChoice === "scissors") {
             result_p.innerHTML = computerSelection + " beats " + playerChoice + ", 1 point for the Overlord!" 
-            computerScore++
+            ++computerScore
         }else if (computerSelection === "paper" && playerChoice === "rock") {
             result_p.innerHTML = computerSelection + " beats " + playerChoice + ",  1 point for the Overlord!"
-            computerScore++
+            ++computerScore
         }else if (computerSelection === "paper" && playerChoice === "scissors") {
             result_p.innerHTML = playerChoice + " beats " + computerSelection + ", 1 point for you!"
-            playerScore++
+            ++playerScore
         }else if (computerSelection === "scissors" && playerChoice === "rock") {
             result_p.innerHTML = playerChoice + " beats " + computerSelection + ", 1 point for you!"
-            playerScore++ 
+            ++playerScore
         }else if (computerSelection === "scissors" && playerChoice === "paper") {
             result_p.innerHTML = computerSelection + " beats " + playerChoice + ", 1 point for the Overlord!"
-            computerScore++
+            ++computerScore
         }
         return (computerSelection, playerChoice)
     
